@@ -18,9 +18,8 @@ def get_user_input
   input = gets.chomp
 end
 
-def end_game
-  puts "Sorry, your card total is over 21"
-  puts "Thank you for playing"
+def end_game(total)
+  puts "Your total is #{total}"
 end
 
 def initial_round
