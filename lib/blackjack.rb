@@ -41,7 +41,7 @@ def hit?
     break
 
   else
-    
+
   end
 
 end
@@ -56,7 +56,7 @@ end
 
 def runner
   welcome
-  initial_round
+  total = initial_round
   hit?
   display_card_total()
 end
