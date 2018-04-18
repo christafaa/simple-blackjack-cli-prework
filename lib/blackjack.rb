@@ -20,7 +20,8 @@ end
 
 def end_game
   puts "Sorry"
-  puts 
+  display_card_total
+  puts "Thank you for playing"
 end
 
 def initial_round
