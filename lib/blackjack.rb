@@ -36,8 +36,12 @@ def hit?
 
   if input == 'h'
     new_card = deal_card
+
   elsif input == 's'
-  
+    break
+
+  end
+
 end
 
 def invalid_command
