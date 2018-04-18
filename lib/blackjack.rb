@@ -58,5 +58,5 @@ def runner
   welcome
   total = initial_round
   hit?
-  display_card_total()
+  display_card_total(total)
 end
