@@ -20,6 +20,7 @@ end
 
 def end_game
   puts "Sorry"
+  puts 
 end
 
 def initial_round
