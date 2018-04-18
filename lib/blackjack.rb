@@ -38,8 +38,7 @@ def hit?
     new_card = deal_card
     return new_card
   elsif input == 's'
-    break
-
+    hit?
   else
     invalid_command
   end
