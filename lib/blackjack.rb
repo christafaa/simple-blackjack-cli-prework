@@ -7,11 +7,11 @@ def deal_card
 end
 
 def display_card_total(total)
-  
+  puts total
 end
 
 def prompt_user
-  # code #prompt_user here
+  
 end
 
 def get_user_input
@@ -41,4 +41,3 @@ end
 def runner
   # code runner here
 end
-    
