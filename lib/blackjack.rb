@@ -40,6 +40,8 @@ def hit?
   elsif input == 's'
     break
 
+  else
+    
   end
 
 end
