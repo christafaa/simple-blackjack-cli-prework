@@ -36,7 +36,7 @@ def hit?
 
   if input == 'h'
     new_card = deal_card
-
+    return new_card
   elsif input == 's'
     break
 
